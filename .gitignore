@@ -1,7 +1,6 @@
- .idea
-  .iml
+ *.iml
 
  /.idea/
 
-
-/.idea/
+/Lesson4.iml
+/out/
