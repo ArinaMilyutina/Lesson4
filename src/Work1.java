@@ -10,7 +10,9 @@ public class Work1 {
         Scanner scanner=new Scanner(System.in);
         int number= scanner.nextInt();
         List inList=new ArrayList<>(Arrays.asList(array));//преобразование массива в список массивов
-        System.out.println(inList.contains(number));//contains возвращает логическое значение,указывающее,содержит ли список элемент number
-
+         //contains возвращает логическое значение,указывающее,содержит ли список элемент number
+        if( inList.contains(number)==true){
+            System.out.println("This number is included in the array");
+        }else System.out.println("This number is not included in the array");
     }
 }
