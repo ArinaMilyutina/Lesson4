@@ -9,8 +9,8 @@ public class Work1 {
         System.out.println("Enter the number,please.");
         Scanner scanner=new Scanner(System.in);
         int number= scanner.nextInt();
-        List inList=new ArrayList<>(Arrays.asList(array));//преобразование массива в список массивов
-        if( inList.contains(number)==true){ //contains возвращает логическое значение,указывающее,содержит ли список элемент number
+        List<Integer> inList=new ArrayList<>(Arrays.asList(array));//преобразование массива в список массивов
+        if(inList.contains(number)){ //contains возвращает логическое значение,указывающее,содержит ли список элемент number
             System.out.println("This number is included in the array");
         }else System.out.println("This number is not included in the array");
     }
