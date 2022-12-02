@@ -18,11 +18,8 @@ public class Work2 {
             if (j != number) {
                 array2[index] = j;
                 index++;
-
             }
         System.out.println(Arrays.toString(array2));
-
-
     }
 }
 
